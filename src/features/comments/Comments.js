@@ -19,7 +19,10 @@ const Comments = () => {
   
 useEffect(()=>{
 article && dispatch(loadCommentsForArticleId(article.id))
+
 }, [dispatch, article]);
+
+
 
 const commentsForArticlesId= article? comments[article.id]:[];
 

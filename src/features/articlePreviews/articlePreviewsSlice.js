@@ -16,7 +16,9 @@ export const articlePreviewsSlice = createSlice({
     isLoadingArticlePreviews: false,
     hasError: false
   },
+  //for all async thunk action use extra reducers instead of reducer
   extraReducers: (builder) => {
+   //The recommended way of using createReducer is the builder callback notation, as it works best with TypeScript and most IDEs
     builder
       .addCase(loadAllPreviews.pending, (state) => {
         state.isLoadingArticlePreviews = true;
