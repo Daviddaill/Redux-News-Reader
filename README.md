@@ -1,46 +1,49 @@
-# Getting Started with Create React App and Redux
+# Redux News Reader
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+Redux News Reader is an application that allows you to view full articles from a list of article previews. For each article, you can access its comments section and even contribute your own comments.
 
-## Available Scripts
+![preview](https://github.com/Daviddaill/Redux-News-Reader/blob/main/src/img/overview.png?raw=true)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Fetch data to load all article previews.
+- Retrieve all comments for a given article.
+- Post a comment to add to the list of comments for each article.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Follow these steps to get started with Redux News Reader:
+1. Clone the repository: `git clone https://github.com/Daviddaill/appointment-planner.git`
+2. Install the dependencies: `npm install`
+3. Start the development server: `npm start`
+4. Open your browser and navigate to http://localhost:3000
 
-### `npm test`
+## Usage
+Here's how you can use Redux News Reader:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Click on an article preview to view its full content.
+- Explore all comments for the selected article.
+- Share your own comments.
 
-### `npm run build`
+## Technologies
+This project uses the following technologies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React.js
+- React Hooks (useState, useEffect)
+- Redux, Redux toolkit (createSlice, UseAsyncThunk, extraReducers)
+- Mock Service Worker
+- Fetch API and JSON
+- HTML
+- JavaScript
+- CSS
+- npm and Redux dev toolkit
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributions are welcome! If you encounter any issues or have suggestions for enhancements, feel free to open an issue or submit a pull request.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
