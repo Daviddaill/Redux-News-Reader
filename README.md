@@ -13,7 +13,7 @@ Redux News Reader is an application that allows you to view full articles from a
 ## Getting Started
 
 Follow these steps to get started with Redux News Reader:
-1. Clone the repository: `git clone https://github.com/Daviddaill/appointment-planner.git`
+1. Clone the repository: `git clone https://github.com/Daviddaill/Redux-News-Reader.git`
 2. Install the dependencies: `npm install`
 3. Start the development server: `npm start`
 4. Open your browser and navigate to http://localhost:3000
